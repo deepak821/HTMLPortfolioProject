@@ -1,0 +1,55 @@
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    border: 2px solid;
+    background-color: white;
+    color: black;
+}
+.head{
+    background: url(./web-design-2906159_1920.jpg) no-repeat center center/cover;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.cont{
+    text-align: center;
+    border: 2px solid black;
+}
+.slist{
+    display: flex;
+    list-style-type: none;  
+    font-weight: bold; 
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+.slist li:hover{
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+.box{
+    border: 2px solid black;
+    background: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+    z-index: -1;
+    color: white;
+    height: 50vh;
+}
+.contact{
+    color: white;
+    text-align: center;
+    width: 50%;
+    border: 2px solid rgb(0, 255, 106);
+    padding: 10px;
+    margin-top: 30px;
+}
+.social img{
+    width: 34px;
+}
